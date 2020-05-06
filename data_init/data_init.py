@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 
 def concatenate_data(x_path, y_path, l_path):
-    print("Concatenating...")
+    print("Concatenating..")
     for i in range(9):
         curr_x = nib.load(x_path + '/' + str(i+1) + '.nii').get_fdata()
         curr_y = nib.load(y_path + '/' + str(i+1) + '.nii').get_fdata()
