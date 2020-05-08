@@ -1,6 +1,6 @@
 # custom
-data_init/data/1
-data_init/data/2
+/data/1
+/data/2
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
